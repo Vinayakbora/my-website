@@ -1,0 +1,141 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: #01b3ee;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+  }
+  
+  .main {
+    padding: 100px 80px;
+  }
+  
+  .copy-container h1 {
+   
+    font-size: 120px;
+  }
+  
+ a:link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+ 
+   
+ }
+a:visited {
+  text-decoration: none;
+  color:white;
+  text-align: center;
+
+}
+.copy-container h1{
+  color: white;
+}
+  
+
+  .contents {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+  }
+  
+  #section-title {
+    color: white;
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+
+  @media (min-width: 300px) and (max-width: 949px) {
+    .contents-item {
+      float: left;
+      width: 100%;
+    }
+  }
+
+
+  .contents-item {
+    padding:20px;
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .contents-item p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  #contact-form {
+    clear: left;
+    color: white;
+    padding-top: 100px;
+  }
+  
+  
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  
+ 
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+
+  }
+  
+  .footer {
+    background-color: #002736;
+    color: white;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: center;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+  
